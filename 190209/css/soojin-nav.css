@@ -1,0 +1,50 @@
+.ct-nav ul, .ct-nav ol, .ct-nav ul li, .ct-nav ol li{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.ct-nav{
+    text-align: center;
+}
+
+.ct-nav ul{
+    border:1px solid #e5e5e5;
+    border-radius: 5px;
+    display:inline-block;
+    padding: 12px 32px;
+}
+
+
+.ct-nav ul:after{
+    display:block;
+    content: '';
+    clear:both;
+}
+
+.ct-nav ul li{
+    list-style: none;
+    float:left;
+    margin-left: 20px;
+}
+
+.ct-nav ul li a{
+    display: block;
+    font-size:16px;
+    text-decoration: none;
+    color: #2196F3;
+    padding: 5px;
+
+}
+
+.ct-nav ul li a:hover, .ct-nav ul li a:active, .ct-nav ul li a:focus{
+    color: #2962FF;
+}
+
+.ct-nav ul li.menu-first{
+    margin-left:0;
+}
+
+.ct-nav ul li.menu-disabled a{
+    color: #ccc;
+}
